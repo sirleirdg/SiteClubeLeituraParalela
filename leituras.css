@@ -1,0 +1,105 @@
+.dicasdeleitura{
+    height: 200px;
+	width: 250px;
+	margin: 0 auto;
+	padding: 50px 0;
+}
+
+.cabecalho {
+    background-color: #29290e;
+    color: white;
+    justify-content: space-around;
+    align-items: center;
+    padding: 15px 0;
+}
+
+.cabecalho-imagem{
+    padding: 20px 200px;
+    height: 100px;
+}
+
+.cabecalho-lista-item{
+    display: inline-block;
+    margin: 0 60px;
+    font-size: 24px;
+    padding: 20px 0;
+}
+
+.caixa {
+	position: relative;
+	width: 240px;
+	margin: 0 auto;
+}
+
+nav {
+	position: absolute;
+	top: 110px;
+	right: 0;
+}
+
+nav li {
+	display: inline;
+	margin: 0 0 0 15px;
+}
+
+nav a {
+	text-transform: uppercase;
+	color: #000000;
+	font-weight: bold;
+	font-size: 22px;
+	text-decoration: none;
+}
+
+nav a:hover {
+	color: #C78C19;
+	text-decoration: underline;
+}
+
+.leituras li {
+	display: inline-block;
+	text-align: center;
+	width: 20%;
+	vertical-align: top;
+	margin: 0 1.5%;
+	padding: 0px 20px;
+	box-sizing: border-box;
+	border: 2px solid #000000;
+	border-radius: 10px;
+}
+
+.leituras li:hover {
+	border-color: #C78C19;
+}
+
+.leituras li:active {
+	border-color: #088C19;	
+}
+
+.leituras li:hover h2 {
+	font-size: 34px;
+}
+
+.leituras h2 {
+	font-size: 30px;
+	font-weight: bold;
+}
+
+body{
+    background-color: #e2e391;
+    Color: black;
+    font-family: Roboto;
+    font-size: 25px;
+    }
+
+footer{
+    background-color: #29290e;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 24px 0;
+    font-family: Roboto;
+    font-size: 18px;
+    text-align: center;
+
+}

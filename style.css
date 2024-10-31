@@ -1,0 +1,49 @@
+.cabecalho {
+    background-color: #29290e;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 24px 0;
+}
+
+.cabecalho-lista-item{
+    display: inline-block;
+    margin: 0 10px;
+    font-size: 24px;
+}
+
+body{
+    background-color: #e2e391;
+    Color: black;
+    font-family: Roboto;
+    font-size: 25px;
+    text-align: center;
+}
+
+footer{
+    background-color: #29290e;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 24px 0;
+    font-family: Roboto;
+    font-size: 18px;
+    text-align: center;
+
+}
+
+.titulo-sec{
+    color: rgb(232, 109, 9);
+    font-size: 50px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.capa-imagem{
+    height: 180px;
+}
+
+#nome-usuário { 
+    font-weight: bold; 
+ }
